@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  margin: auto;
+}
+.container{
+  /* border: 3px solid black; */
+  padding: 10px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+form{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 12px;
+    padding: 17px 48px;
+}
+table{
+  font-weight: bolder;
+  font-family: cursive;
+
+}
+input{
+
+  border: 3px solid;
+  border-radius: 4px;
+  height: 38px;
+  width: 300px;
+  
+}
+td{
+  height: 46px;
+}
+h1{
+  padding: 0px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: bolder;
+
+}
+label{
+  font-size: 25px;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    background: blue;
+    color: wi;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 13px;
+}
+input{
+
+  height: 34px;
+  width: 300px;
+  font-size: 25px;
+}
+.formHeading{
+  margin-bottom: 20px;
+}
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  transition: 3000 ease;
+
+}
+.error{
+  border: 5px solid rgb(117, 8, 8);
+
+}
