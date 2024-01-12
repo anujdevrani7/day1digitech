@@ -112,6 +112,12 @@ button:hover{
 
 }
 .error{
-  border: 5px solid rgb(117, 8, 8);
+  border: 9px solid rgb(236, 14, 14);
 
+}
+h1{
+  font-weight: bolder;
+  font-family: cursive;
+  text-decoration: underline;
+  margin: 5px 0px;
 }
